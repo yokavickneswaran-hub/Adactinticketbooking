@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.715073">
+<testcase classname="Ticket Booking Process" name="Ticket Booking Process" time="27.715073">
+<system-out><![CDATA[Given User in Adactin login page............................................passed
+When User enter username and password.......................................passed
+And User click login button.................................................passed
+And User select Location,Hotels ,Room Type ,Select Rooms,Check In,Check Out,Adults ,Children,Click Search button,select Hotel,continue,fill FName,LName,Address,CC_no,CC_Type,Expdate,CVV.passed
+Then User click Booknow and copy Orderno to console.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

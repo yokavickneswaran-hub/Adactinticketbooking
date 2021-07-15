@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6455217500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User in Adactin login page",
+            "match": {
+              "location": "StepDefinition.user_in_Adactin_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-15T12:35:28.057Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4250716900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Ticket Booking Process",
+        "description": "",
+        "id": "ticket-booking-process;ticket-booking-process",
+        "after": [
+          {
+            "result": {
+              "duration": 233758300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 430119400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter username and password",
+            "match": {
+              "location": "StepDefinition.user_enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "wizardian123",
+                  "wizardian123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1349506700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click login button",
+            "match": {
+              "location": "StepDefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4690482200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User select Location,Hotels ,Room Type ,Select Rooms,Check In,Check Out,Adults ,Children,Click Search button,select Hotel,continue,fill FName,LName,Address,CC_no,CC_Type,Expdate,CVV",
+            "match": {
+              "location": "StepDefinition.user_select_Location_Hotels_Room_Type_Select_Rooms_Check_In_Check_Out_Adults_Children_Click_Search_button_select_Hotel_continue_fill_FName_LName_Address_CC_no_CC_Type_Expdate_CVV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10235208300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click Booknow and copy Orderno to console",
+            "match": {
+              "location": "StepDefinition.user_click_Booknow_and_copy_Orderno_to_console()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Ticket Booking Process",
+    "description": "",
+    "id": "ticket-booking-process",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefile/FeatureFile.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
